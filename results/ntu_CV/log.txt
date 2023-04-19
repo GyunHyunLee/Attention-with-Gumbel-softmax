@@ -1,0 +1,952 @@
+[ Mon Apr 17 02:21:03 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:21:59 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:22:15 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 16, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 02:22:15 2023 ] # Parameters: 1556807
+[ Mon Apr 17 02:22:15 2023 ] Training epoch: 1
+[ Mon Apr 17 02:23:43 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:23:58 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 16, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 02:23:58 2023 ] # Parameters: 1556807
+[ Mon Apr 17 02:23:58 2023 ] Training epoch: 1
+[ Mon Apr 17 02:44:25 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:44:42 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 16, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 02:44:42 2023 ] # Parameters: 1556807
+[ Mon Apr 17 02:44:42 2023 ] Training epoch: 1
+[ Mon Apr 17 02:46:50 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:47:07 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 16, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 02:47:07 2023 ] # Parameters: 1556807
+[ Mon Apr 17 02:47:07 2023 ] Training epoch: 1
+[ Mon Apr 17 02:47:54 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:48:16 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 16, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 02:48:16 2023 ] # Parameters: 1556807
+[ Mon Apr 17 02:48:16 2023 ] Training epoch: 1
+[ Mon Apr 17 02:50:17 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:50:33 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 16, 'test_batch_size': 16, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 02:50:33 2023 ] # Parameters: 1556807
+[ Mon Apr 17 02:50:33 2023 ] Training epoch: 1
+[ Mon Apr 17 02:51:17 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:51:33 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 02:51:33 2023 ] # Parameters: 1556807
+[ Mon Apr 17 02:51:33 2023 ] Training epoch: 1
+[ Mon Apr 17 02:52:33 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:52:49 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 48, 'test_batch_size': 48, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 02:52:49 2023 ] # Parameters: 1556807
+[ Mon Apr 17 02:52:49 2023 ] Training epoch: 1
+[ Mon Apr 17 02:53:13 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 02:53:29 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 02:53:29 2023 ] # Parameters: 1556807
+[ Mon Apr 17 02:53:29 2023 ] Training epoch: 1
+[ Mon Apr 17 03:00:24 2023 ] 	Training loss: 3.6593.  Training acc: 13.96%.
+[ Mon Apr 17 03:00:24 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 03:00:24 2023 ] Eval epoch: 1
+[ Mon Apr 17 03:01:48 2023 ] 	Mean test loss of 1250 batches: 3.002182.
+[ Mon Apr 17 03:01:48 2023 ] 	Top1: 23.09%
+[ Mon Apr 17 03:01:48 2023 ] 	Top5: 62.03%
+[ Mon Apr 17 03:01:48 2023 ] Training epoch: 2
+[ Mon Apr 17 03:08:39 2023 ] 	Training loss: 2.7124.  Training acc: 31.89%.
+[ Mon Apr 17 03:08:39 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 03:08:39 2023 ] Eval epoch: 2
+[ Mon Apr 17 03:10:03 2023 ] 	Mean test loss of 1250 batches: 5.927266.
+[ Mon Apr 17 03:10:03 2023 ] 	Top1: 12.67%
+[ Mon Apr 17 03:10:03 2023 ] 	Top5: 34.79%
+[ Mon Apr 17 03:10:03 2023 ] Training epoch: 3
+[ Mon Apr 17 03:16:59 2023 ] 	Training loss: 2.3601.  Training acc: 43.81%.
+[ Mon Apr 17 03:16:59 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 03:16:59 2023 ] Eval epoch: 3
+[ Mon Apr 17 03:18:25 2023 ] 	Mean test loss of 1250 batches: 13.701036.
+[ Mon Apr 17 03:18:25 2023 ] 	Top1: 4.13%
+[ Mon Apr 17 03:18:25 2023 ] 	Top5: 15.81%
+[ Mon Apr 17 03:18:25 2023 ] Training epoch: 4
+[ Mon Apr 17 03:25:19 2023 ] 	Training loss: 2.1880.  Training acc: 50.27%.
+[ Mon Apr 17 03:25:19 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 03:25:19 2023 ] Eval epoch: 4
+[ Mon Apr 17 03:26:45 2023 ] 	Mean test loss of 1250 batches: 24.227419.
+[ Mon Apr 17 03:26:45 2023 ] 	Top1: 3.27%
+[ Mon Apr 17 03:26:45 2023 ] 	Top5: 12.28%
+[ Mon Apr 17 03:26:45 2023 ] Training epoch: 5
+[ Mon Apr 17 03:33:41 2023 ] 	Training loss: 2.1408.  Training acc: 52.47%.
+[ Mon Apr 17 03:33:41 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 03:33:41 2023 ] Eval epoch: 5
+[ Mon Apr 17 03:35:05 2023 ] 	Mean test loss of 1250 batches: 13.217076.
+[ Mon Apr 17 03:35:05 2023 ] 	Top1: 4.14%
+[ Mon Apr 17 03:35:05 2023 ] 	Top5: 16.49%
+[ Mon Apr 17 03:35:06 2023 ] Training epoch: 6
+[ Mon Apr 17 03:42:02 2023 ] 	Training loss: 2.0390.  Training acc: 56.06%.
+[ Mon Apr 17 03:42:02 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 03:42:02 2023 ] Eval epoch: 6
+[ Mon Apr 17 03:43:27 2023 ] 	Mean test loss of 1250 batches: 22.247850.
+[ Mon Apr 17 03:43:27 2023 ] 	Top1: 5.85%
+[ Mon Apr 17 03:43:27 2023 ] 	Top5: 19.26%
+[ Mon Apr 17 03:43:27 2023 ] Training epoch: 7
+[ Mon Apr 17 03:50:23 2023 ] 	Training loss: 1.9809.  Training acc: 58.43%.
+[ Mon Apr 17 03:50:23 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 03:50:23 2023 ] Eval epoch: 7
+[ Mon Apr 17 03:51:50 2023 ] 	Mean test loss of 1250 batches: 11.899766.
+[ Mon Apr 17 03:51:50 2023 ] 	Top1: 8.42%
+[ Mon Apr 17 03:51:50 2023 ] 	Top5: 27.19%
+[ Mon Apr 17 03:51:50 2023 ] Training epoch: 8
+[ Mon Apr 17 03:58:46 2023 ] 	Training loss: 1.9272.  Training acc: 60.23%.
+[ Mon Apr 17 03:58:46 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 03:58:46 2023 ] Eval epoch: 8
+[ Mon Apr 17 04:00:11 2023 ] 	Mean test loss of 1250 batches: 14.305829.
+[ Mon Apr 17 04:00:11 2023 ] 	Top1: 7.90%
+[ Mon Apr 17 04:00:11 2023 ] 	Top5: 23.07%
+[ Mon Apr 17 04:00:11 2023 ] Training epoch: 9
+[ Mon Apr 17 04:07:07 2023 ] 	Training loss: 1.8947.  Training acc: 61.48%.
+[ Mon Apr 17 04:07:07 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 04:07:07 2023 ] Eval epoch: 9
+[ Mon Apr 17 04:08:33 2023 ] 	Mean test loss of 1250 batches: 6.644754.
+[ Mon Apr 17 04:08:34 2023 ] 	Top1: 13.92%
+[ Mon Apr 17 04:08:34 2023 ] 	Top5: 37.32%
+[ Mon Apr 17 04:08:34 2023 ] Training epoch: 10
+[ Mon Apr 17 04:15:28 2023 ] 	Training loss: 1.8607.  Training acc: 62.59%.
+[ Mon Apr 17 04:15:28 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 04:15:29 2023 ] Eval epoch: 10
+[ Mon Apr 17 04:16:56 2023 ] 	Mean test loss of 1250 batches: 14.497239.
+[ Mon Apr 17 04:16:56 2023 ] 	Top1: 5.52%
+[ Mon Apr 17 04:16:56 2023 ] 	Top5: 19.25%
+[ Mon Apr 17 04:16:57 2023 ] Training epoch: 11
+[ Mon Apr 17 04:23:56 2023 ] 	Training loss: 1.8308.  Training acc: 63.56%.
+[ Mon Apr 17 04:23:56 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 04:23:56 2023 ] Eval epoch: 11
+[ Mon Apr 17 04:25:20 2023 ] 	Mean test loss of 1250 batches: 8.690400.
+[ Mon Apr 17 04:25:20 2023 ] 	Top1: 11.22%
+[ Mon Apr 17 04:25:20 2023 ] 	Top5: 27.74%
+[ Mon Apr 17 04:25:20 2023 ] Training epoch: 12
+[ Mon Apr 17 04:32:16 2023 ] 	Training loss: 1.8187.  Training acc: 64.26%.
+[ Mon Apr 17 04:32:16 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 04:32:16 2023 ] Eval epoch: 12
+[ Mon Apr 17 04:33:41 2023 ] 	Mean test loss of 1250 batches: 11.126548.
+[ Mon Apr 17 04:33:41 2023 ] 	Top1: 16.96%
+[ Mon Apr 17 04:33:42 2023 ] 	Top5: 40.47%
+[ Mon Apr 17 04:33:42 2023 ] Training epoch: 13
+[ Mon Apr 17 04:40:36 2023 ] 	Training loss: 1.7987.  Training acc: 64.96%.
+[ Mon Apr 17 04:40:36 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 04:40:36 2023 ] Eval epoch: 13
+[ Mon Apr 17 04:42:02 2023 ] 	Mean test loss of 1250 batches: 5.930500.
+[ Mon Apr 17 04:42:02 2023 ] 	Top1: 23.48%
+[ Mon Apr 17 04:42:02 2023 ] 	Top5: 46.14%
+[ Mon Apr 17 04:42:02 2023 ] Training epoch: 14
+[ Mon Apr 17 04:48:59 2023 ] 	Training loss: 1.7796.  Training acc: 65.80%.
+[ Mon Apr 17 04:48:59 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 04:48:59 2023 ] Eval epoch: 14
+[ Mon Apr 17 04:50:24 2023 ] 	Mean test loss of 1250 batches: 7.214127.
+[ Mon Apr 17 04:50:24 2023 ] 	Top1: 22.26%
+[ Mon Apr 17 04:50:24 2023 ] 	Top5: 45.11%
+[ Mon Apr 17 04:50:24 2023 ] Training epoch: 15
+[ Mon Apr 17 04:57:19 2023 ] 	Training loss: 1.7754.  Training acc: 65.72%.
+[ Mon Apr 17 04:57:19 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 04:57:19 2023 ] Eval epoch: 15
+[ Mon Apr 17 04:58:45 2023 ] 	Mean test loss of 1250 batches: 2.255843.
+[ Mon Apr 17 04:58:45 2023 ] 	Top1: 51.95%
+[ Mon Apr 17 04:58:45 2023 ] 	Top5: 83.46%
+[ Mon Apr 17 04:58:45 2023 ] Training epoch: 16
+[ Mon Apr 17 05:05:40 2023 ] 	Training loss: 1.7578.  Training acc: 66.70%.
+[ Mon Apr 17 05:05:40 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 05:05:40 2023 ] Eval epoch: 16
+[ Mon Apr 17 05:07:06 2023 ] 	Mean test loss of 1250 batches: 2.531741.
+[ Mon Apr 17 05:07:06 2023 ] 	Top1: 45.81%
+[ Mon Apr 17 05:07:06 2023 ] 	Top5: 76.61%
+[ Mon Apr 17 05:07:06 2023 ] Training epoch: 17
+[ Mon Apr 17 05:14:02 2023 ] 	Training loss: 1.7554.  Training acc: 66.55%.
+[ Mon Apr 17 05:14:02 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 05:14:02 2023 ] Eval epoch: 17
+[ Mon Apr 17 05:15:27 2023 ] 	Mean test loss of 1250 batches: 2.087485.
+[ Mon Apr 17 05:15:27 2023 ] 	Top1: 57.14%
+[ Mon Apr 17 05:15:27 2023 ] 	Top5: 85.54%
+[ Mon Apr 17 05:15:27 2023 ] Training epoch: 18
+[ Mon Apr 17 05:22:21 2023 ] 	Training loss: 1.7455.  Training acc: 67.12%.
+[ Mon Apr 17 05:22:21 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 05:22:21 2023 ] Eval epoch: 18
+[ Mon Apr 17 05:23:48 2023 ] 	Mean test loss of 1250 batches: 2.598514.
+[ Mon Apr 17 05:23:48 2023 ] 	Top1: 47.49%
+[ Mon Apr 17 05:23:48 2023 ] 	Top5: 79.23%
+[ Mon Apr 17 05:23:48 2023 ] Training epoch: 19
+[ Mon Apr 17 05:30:42 2023 ] 	Training loss: 1.7347.  Training acc: 67.39%.
+[ Mon Apr 17 05:30:42 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 05:30:42 2023 ] Eval epoch: 19
+[ Mon Apr 17 05:32:07 2023 ] 	Mean test loss of 1250 batches: 2.553222.
+[ Mon Apr 17 05:32:07 2023 ] 	Top1: 45.90%
+[ Mon Apr 17 05:32:07 2023 ] 	Top5: 75.88%
+[ Mon Apr 17 05:32:07 2023 ] Training epoch: 20
+[ Mon Apr 17 05:39:05 2023 ] 	Training loss: 1.7392.  Training acc: 67.06%.
+[ Mon Apr 17 05:39:05 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 05:39:05 2023 ] Eval epoch: 20
+[ Mon Apr 17 05:40:30 2023 ] 	Mean test loss of 1250 batches: 1.949649.
+[ Mon Apr 17 05:40:30 2023 ] 	Top1: 60.08%
+[ Mon Apr 17 05:40:30 2023 ] 	Top5: 89.13%
+[ Mon Apr 17 05:40:30 2023 ] Training epoch: 21
+[ Mon Apr 17 05:47:26 2023 ] 	Training loss: 1.7304.  Training acc: 67.62%.
+[ Mon Apr 17 05:47:26 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 05:47:26 2023 ] Eval epoch: 21
+[ Mon Apr 17 05:48:51 2023 ] 	Mean test loss of 1250 batches: 2.224215.
+[ Mon Apr 17 05:48:51 2023 ] 	Top1: 57.28%
+[ Mon Apr 17 05:48:51 2023 ] 	Top5: 86.60%
+[ Mon Apr 17 05:48:51 2023 ] Training epoch: 22
+[ Mon Apr 17 05:55:46 2023 ] 	Training loss: 1.7213.  Training acc: 67.78%.
+[ Mon Apr 17 05:55:46 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 05:55:46 2023 ] Eval epoch: 22
+[ Mon Apr 17 05:57:12 2023 ] 	Mean test loss of 1250 batches: 2.293715.
+[ Mon Apr 17 05:57:13 2023 ] 	Top1: 56.70%
+[ Mon Apr 17 05:57:13 2023 ] 	Top5: 85.38%
+[ Mon Apr 17 05:57:13 2023 ] Training epoch: 23
+[ Mon Apr 17 06:04:09 2023 ] 	Training loss: 1.7205.  Training acc: 67.80%.
+[ Mon Apr 17 06:04:09 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 06:04:09 2023 ] Eval epoch: 23
+[ Mon Apr 17 06:05:35 2023 ] 	Mean test loss of 1250 batches: 1.729410.
+[ Mon Apr 17 06:05:35 2023 ] 	Top1: 68.05%
+[ Mon Apr 17 06:05:35 2023 ] 	Top5: 91.24%
+[ Mon Apr 17 06:05:35 2023 ] Training epoch: 24
+[ Mon Apr 17 06:12:33 2023 ] 	Training loss: 1.7170.  Training acc: 68.02%.
+[ Mon Apr 17 06:12:33 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 06:12:33 2023 ] Eval epoch: 24
+[ Mon Apr 17 06:13:59 2023 ] 	Mean test loss of 1250 batches: 1.535861.
+[ Mon Apr 17 06:13:59 2023 ] 	Top1: 74.57%
+[ Mon Apr 17 06:13:59 2023 ] 	Top5: 95.38%
+[ Mon Apr 17 06:13:59 2023 ] Training epoch: 25
+[ Mon Apr 17 06:20:55 2023 ] 	Training loss: 1.7009.  Training acc: 68.50%.
+[ Mon Apr 17 06:20:55 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 06:20:55 2023 ] Eval epoch: 25
+[ Mon Apr 17 06:22:19 2023 ] 	Mean test loss of 1250 batches: 1.626552.
+[ Mon Apr 17 06:22:19 2023 ] 	Top1: 70.74%
+[ Mon Apr 17 06:22:19 2023 ] 	Top5: 93.84%
+[ Mon Apr 17 06:22:19 2023 ] Training epoch: 26
+[ Mon Apr 17 06:29:14 2023 ] 	Training loss: 1.7082.  Training acc: 68.21%.
+[ Mon Apr 17 06:29:14 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 06:29:14 2023 ] Eval epoch: 26
+[ Mon Apr 17 06:30:38 2023 ] 	Mean test loss of 1250 batches: 1.716041.
+[ Mon Apr 17 06:30:38 2023 ] 	Top1: 68.49%
+[ Mon Apr 17 06:30:38 2023 ] 	Top5: 92.97%
+[ Mon Apr 17 06:30:38 2023 ] Training epoch: 27
+[ Mon Apr 17 06:37:35 2023 ] 	Training loss: 1.7051.  Training acc: 68.38%.
+[ Mon Apr 17 06:37:35 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 06:37:35 2023 ] Eval epoch: 27
+[ Mon Apr 17 06:39:01 2023 ] 	Mean test loss of 1250 batches: 1.913213.
+[ Mon Apr 17 06:39:02 2023 ] 	Top1: 61.85%
+[ Mon Apr 17 06:39:02 2023 ] 	Top5: 88.63%
+[ Mon Apr 17 06:39:02 2023 ] Training epoch: 28
+[ Mon Apr 17 06:45:56 2023 ] 	Training loss: 1.7072.  Training acc: 68.54%.
+[ Mon Apr 17 06:45:56 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 06:45:56 2023 ] Eval epoch: 28
+[ Mon Apr 17 06:47:23 2023 ] 	Mean test loss of 1250 batches: 1.494202.
+[ Mon Apr 17 06:47:23 2023 ] 	Top1: 76.11%
+[ Mon Apr 17 06:47:23 2023 ] 	Top5: 95.83%
+[ Mon Apr 17 06:47:23 2023 ] Training epoch: 29
+[ Mon Apr 17 06:54:20 2023 ] 	Training loss: 1.6990.  Training acc: 68.29%.
+[ Mon Apr 17 06:54:20 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 06:54:20 2023 ] Eval epoch: 29
+[ Mon Apr 17 06:55:48 2023 ] 	Mean test loss of 1250 batches: 1.646626.
+[ Mon Apr 17 06:55:48 2023 ] 	Top1: 70.85%
+[ Mon Apr 17 06:55:48 2023 ] 	Top5: 93.28%
+[ Mon Apr 17 06:55:48 2023 ] Training epoch: 30
+[ Mon Apr 17 07:02:53 2023 ] 	Training loss: 1.6964.  Training acc: 68.65%.
+[ Mon Apr 17 07:02:53 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 07:02:53 2023 ] Eval epoch: 30
+[ Mon Apr 17 07:04:23 2023 ] 	Mean test loss of 1250 batches: 2.141583.
+[ Mon Apr 17 07:04:23 2023 ] 	Top1: 56.72%
+[ Mon Apr 17 07:04:23 2023 ] 	Top5: 89.07%
+[ Mon Apr 17 07:04:23 2023 ] Training epoch: 31
+[ Mon Apr 17 07:11:32 2023 ] 	Training loss: 1.6971.  Training acc: 68.69%.
+[ Mon Apr 17 07:11:32 2023 ] 	Time consumption: [Data]12%, [Network]88%
+[ Mon Apr 17 07:11:32 2023 ] Eval epoch: 31
+[ Mon Apr 17 07:13:00 2023 ] 	Mean test loss of 1250 batches: 1.550731.
+[ Mon Apr 17 07:13:00 2023 ] 	Top1: 74.38%
+[ Mon Apr 17 07:13:00 2023 ] 	Top5: 95.15%
+[ Mon Apr 17 07:13:00 2023 ] Training epoch: 32
+[ Mon Apr 17 07:19:56 2023 ] 	Training loss: 1.6942.  Training acc: 68.70%.
+[ Mon Apr 17 07:19:56 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 07:19:56 2023 ] Eval epoch: 32
+[ Mon Apr 17 07:21:23 2023 ] 	Mean test loss of 1250 batches: 1.460307.
+[ Mon Apr 17 07:21:23 2023 ] 	Top1: 77.31%
+[ Mon Apr 17 07:21:23 2023 ] 	Top5: 96.03%
+[ Mon Apr 17 07:21:23 2023 ] Training epoch: 33
+[ Mon Apr 17 07:28:18 2023 ] 	Training loss: 1.7013.  Training acc: 68.59%.
+[ Mon Apr 17 07:28:18 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 07:28:18 2023 ] Eval epoch: 33
+[ Mon Apr 17 07:29:43 2023 ] 	Mean test loss of 1250 batches: 1.585702.
+[ Mon Apr 17 07:29:43 2023 ] 	Top1: 73.10%
+[ Mon Apr 17 07:29:43 2023 ] 	Top5: 95.35%
+[ Mon Apr 17 07:29:43 2023 ] Training epoch: 34
+[ Mon Apr 17 07:36:37 2023 ] 	Training loss: 1.6965.  Training acc: 68.56%.
+[ Mon Apr 17 07:36:37 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 07:36:37 2023 ] Eval epoch: 34
+[ Mon Apr 17 07:38:02 2023 ] 	Mean test loss of 1250 batches: 1.489859.
+[ Mon Apr 17 07:38:02 2023 ] 	Top1: 75.44%
+[ Mon Apr 17 07:38:02 2023 ] 	Top5: 95.67%
+[ Mon Apr 17 07:38:03 2023 ] Training epoch: 35
+[ Mon Apr 17 07:44:58 2023 ] 	Training loss: 1.7078.  Training acc: 68.19%.
+[ Mon Apr 17 07:44:58 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 07:44:58 2023 ] Eval epoch: 35
+[ Mon Apr 17 07:46:23 2023 ] 	Mean test loss of 1250 batches: 1.475534.
+[ Mon Apr 17 07:46:23 2023 ] 	Top1: 76.33%
+[ Mon Apr 17 07:46:23 2023 ] 	Top5: 96.12%
+[ Mon Apr 17 07:46:23 2023 ] Training epoch: 36
+[ Mon Apr 17 07:53:20 2023 ] 	Training loss: 1.6935.  Training acc: 68.73%.
+[ Mon Apr 17 07:53:20 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 07:53:20 2023 ] Eval epoch: 36
+[ Mon Apr 17 07:54:44 2023 ] 	Mean test loss of 1250 batches: 1.427844.
+[ Mon Apr 17 07:54:44 2023 ] 	Top1: 78.32%
+[ Mon Apr 17 07:54:45 2023 ] 	Top5: 96.39%
+[ Mon Apr 17 07:54:45 2023 ] Training epoch: 37
+[ Mon Apr 17 08:01:41 2023 ] 	Training loss: 1.6985.  Training acc: 68.32%.
+[ Mon Apr 17 08:01:41 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 08:01:41 2023 ] Eval epoch: 37
+[ Mon Apr 17 08:03:05 2023 ] 	Mean test loss of 1250 batches: 1.667593.
+[ Mon Apr 17 08:03:05 2023 ] 	Top1: 72.07%
+[ Mon Apr 17 08:03:05 2023 ] 	Top5: 93.81%
+[ Mon Apr 17 08:03:05 2023 ] Training epoch: 38
+[ Mon Apr 17 08:10:00 2023 ] 	Training loss: 1.6788.  Training acc: 69.23%.
+[ Mon Apr 17 08:10:00 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 08:10:00 2023 ] Eval epoch: 38
+[ Mon Apr 17 08:11:25 2023 ] 	Mean test loss of 1250 batches: 1.429456.
+[ Mon Apr 17 08:11:25 2023 ] 	Top1: 77.75%
+[ Mon Apr 17 08:11:25 2023 ] 	Top5: 96.60%
+[ Mon Apr 17 08:11:25 2023 ] Training epoch: 39
+[ Mon Apr 17 08:18:19 2023 ] 	Training loss: 1.6843.  Training acc: 69.07%.
+[ Mon Apr 17 08:18:19 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 08:18:19 2023 ] Eval epoch: 39
+[ Mon Apr 17 08:19:45 2023 ] 	Mean test loss of 1250 batches: 1.558320.
+[ Mon Apr 17 08:19:45 2023 ] 	Top1: 73.36%
+[ Mon Apr 17 08:19:45 2023 ] 	Top5: 96.01%
+[ Mon Apr 17 08:19:45 2023 ] Training epoch: 40
+[ Mon Apr 17 08:26:40 2023 ] 	Training loss: 1.6860.  Training acc: 68.81%.
+[ Mon Apr 17 08:26:40 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 08:26:40 2023 ] Eval epoch: 40
+[ Mon Apr 17 08:28:07 2023 ] 	Mean test loss of 1250 batches: 1.712431.
+[ Mon Apr 17 08:28:07 2023 ] 	Top1: 69.86%
+[ Mon Apr 17 08:28:07 2023 ] 	Top5: 93.82%
+[ Mon Apr 17 08:28:07 2023 ] Training epoch: 41
+[ Mon Apr 17 08:35:04 2023 ] 	Training loss: 1.6841.  Training acc: 69.09%.
+[ Mon Apr 17 08:35:04 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 08:35:04 2023 ] Eval epoch: 41
+[ Mon Apr 17 08:36:30 2023 ] 	Mean test loss of 1250 batches: 1.656288.
+[ Mon Apr 17 08:36:30 2023 ] 	Top1: 72.14%
+[ Mon Apr 17 08:36:31 2023 ] 	Top5: 94.16%
+[ Mon Apr 17 08:36:31 2023 ] Training epoch: 42
+[ Mon Apr 17 08:43:26 2023 ] 	Training loss: 1.6755.  Training acc: 69.25%.
+[ Mon Apr 17 08:43:26 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 08:43:26 2023 ] Eval epoch: 42
+[ Mon Apr 17 08:44:52 2023 ] 	Mean test loss of 1250 batches: 1.634177.
+[ Mon Apr 17 08:44:52 2023 ] 	Top1: 69.69%
+[ Mon Apr 17 08:44:52 2023 ] 	Top5: 94.66%
+[ Mon Apr 17 08:44:52 2023 ] Training epoch: 43
+[ Mon Apr 17 08:51:47 2023 ] 	Training loss: 1.6838.  Training acc: 69.29%.
+[ Mon Apr 17 08:51:47 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 08:51:47 2023 ] Eval epoch: 43
+[ Mon Apr 17 08:53:11 2023 ] 	Mean test loss of 1250 batches: 1.536283.
+[ Mon Apr 17 08:53:11 2023 ] 	Top1: 75.10%
+[ Mon Apr 17 08:53:11 2023 ] 	Top5: 95.20%
+[ Mon Apr 17 08:53:11 2023 ] Training epoch: 44
+[ Mon Apr 17 09:00:07 2023 ] 	Training loss: 1.6916.  Training acc: 68.99%.
+[ Mon Apr 17 09:00:07 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 09:00:07 2023 ] Eval epoch: 44
+[ Mon Apr 17 09:01:31 2023 ] 	Mean test loss of 1250 batches: 1.600679.
+[ Mon Apr 17 09:01:31 2023 ] 	Top1: 72.63%
+[ Mon Apr 17 09:01:31 2023 ] 	Top5: 94.30%
+[ Mon Apr 17 09:01:31 2023 ] Training epoch: 45
+[ Mon Apr 17 09:08:28 2023 ] 	Training loss: 1.6830.  Training acc: 69.08%.
+[ Mon Apr 17 09:08:28 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 09:08:28 2023 ] Eval epoch: 45
+[ Mon Apr 17 09:09:52 2023 ] 	Mean test loss of 1250 batches: 1.471425.
+[ Mon Apr 17 09:09:52 2023 ] 	Top1: 76.31%
+[ Mon Apr 17 09:09:52 2023 ] 	Top5: 96.38%
+[ Mon Apr 17 09:09:53 2023 ] Training epoch: 46
+[ Mon Apr 17 09:16:48 2023 ] 	Training loss: 1.6874.  Training acc: 68.65%.
+[ Mon Apr 17 09:16:48 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 09:16:48 2023 ] Eval epoch: 46
+[ Mon Apr 17 09:18:13 2023 ] 	Mean test loss of 1250 batches: 1.561636.
+[ Mon Apr 17 09:18:13 2023 ] 	Top1: 73.90%
+[ Mon Apr 17 09:18:13 2023 ] 	Top5: 94.58%
+[ Mon Apr 17 09:18:13 2023 ] Training epoch: 47
+[ Mon Apr 17 09:25:08 2023 ] 	Training loss: 1.6801.  Training acc: 69.14%.
+[ Mon Apr 17 09:25:08 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 09:25:08 2023 ] Eval epoch: 47
+[ Mon Apr 17 09:26:33 2023 ] 	Mean test loss of 1250 batches: 1.489042.
+[ Mon Apr 17 09:26:33 2023 ] 	Top1: 77.63%
+[ Mon Apr 17 09:26:33 2023 ] 	Top5: 95.65%
+[ Mon Apr 17 09:26:34 2023 ] Training epoch: 48
+[ Mon Apr 17 09:33:37 2023 ] 	Training loss: 1.6845.  Training acc: 69.21%.
+[ Mon Apr 17 09:33:37 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 09:33:37 2023 ] Eval epoch: 48
+[ Mon Apr 17 09:35:03 2023 ] 	Mean test loss of 1250 batches: 1.743390.
+[ Mon Apr 17 09:35:03 2023 ] 	Top1: 69.72%
+[ Mon Apr 17 09:35:04 2023 ] 	Top5: 90.58%
+[ Mon Apr 17 09:35:04 2023 ] Training epoch: 49
+[ Mon Apr 17 09:42:00 2023 ] 	Training loss: 1.6798.  Training acc: 69.38%.
+[ Mon Apr 17 09:42:00 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 09:42:00 2023 ] Eval epoch: 49
+[ Mon Apr 17 09:43:25 2023 ] 	Mean test loss of 1250 batches: 1.491299.
+[ Mon Apr 17 09:43:25 2023 ] 	Top1: 75.77%
+[ Mon Apr 17 09:43:26 2023 ] 	Top5: 95.61%
+[ Mon Apr 17 09:43:26 2023 ] Training epoch: 50
+[ Mon Apr 17 09:50:23 2023 ] 	Training loss: 1.6759.  Training acc: 69.28%.
+[ Mon Apr 17 09:50:23 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 09:50:23 2023 ] Eval epoch: 50
+[ Mon Apr 17 09:51:49 2023 ] 	Mean test loss of 1250 batches: 1.625874.
+[ Mon Apr 17 09:51:49 2023 ] 	Top1: 72.26%
+[ Mon Apr 17 09:51:49 2023 ] 	Top5: 92.73%
+[ Mon Apr 17 09:51:49 2023 ] Training epoch: 51
+[ Mon Apr 17 09:58:43 2023 ] 	Training loss: 1.6742.  Training acc: 69.57%.
+[ Mon Apr 17 09:58:43 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 09:58:43 2023 ] Eval epoch: 51
+[ Mon Apr 17 10:00:08 2023 ] 	Mean test loss of 1250 batches: 1.600533.
+[ Mon Apr 17 10:00:08 2023 ] 	Top1: 71.87%
+[ Mon Apr 17 10:00:08 2023 ] 	Top5: 94.71%
+[ Mon Apr 17 10:00:08 2023 ] Training epoch: 52
+[ Mon Apr 17 10:07:05 2023 ] 	Training loss: 1.6791.  Training acc: 69.31%.
+[ Mon Apr 17 10:07:05 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 10:07:05 2023 ] Eval epoch: 52
+[ Mon Apr 17 10:08:30 2023 ] 	Mean test loss of 1250 batches: 1.689368.
+[ Mon Apr 17 10:08:31 2023 ] 	Top1: 68.96%
+[ Mon Apr 17 10:08:31 2023 ] 	Top5: 92.55%
+[ Mon Apr 17 10:08:31 2023 ] Training epoch: 53
+[ Mon Apr 17 10:15:25 2023 ] 	Training loss: 1.6735.  Training acc: 69.71%.
+[ Mon Apr 17 10:15:25 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 10:15:25 2023 ] Eval epoch: 53
+[ Mon Apr 17 10:16:51 2023 ] 	Mean test loss of 1250 batches: 1.414060.
+[ Mon Apr 17 10:16:51 2023 ] 	Top1: 79.35%
+[ Mon Apr 17 10:16:51 2023 ] 	Top5: 96.42%
+[ Mon Apr 17 10:16:51 2023 ] Training epoch: 54
+[ Mon Apr 17 10:23:44 2023 ] 	Training loss: 1.6716.  Training acc: 69.83%.
+[ Mon Apr 17 10:23:44 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 10:23:44 2023 ] Eval epoch: 54
+[ Mon Apr 17 10:25:09 2023 ] 	Mean test loss of 1250 batches: 1.515854.
+[ Mon Apr 17 10:25:09 2023 ] 	Top1: 76.95%
+[ Mon Apr 17 10:25:09 2023 ] 	Top5: 95.54%
+[ Mon Apr 17 10:25:09 2023 ] Training epoch: 55
+[ Mon Apr 17 10:32:08 2023 ] 	Training loss: 1.6736.  Training acc: 69.39%.
+[ Mon Apr 17 10:32:08 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 10:32:08 2023 ] Eval epoch: 55
+[ Mon Apr 17 10:33:33 2023 ] 	Mean test loss of 1250 batches: 1.437642.
+[ Mon Apr 17 10:33:33 2023 ] 	Top1: 77.04%
+[ Mon Apr 17 10:33:33 2023 ] 	Top5: 96.62%
+[ Mon Apr 17 10:33:33 2023 ] Training epoch: 56
+[ Mon Apr 17 10:40:30 2023 ] 	Training loss: 1.6670.  Training acc: 69.75%.
+[ Mon Apr 17 10:40:30 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 10:40:30 2023 ] Eval epoch: 56
+[ Mon Apr 17 10:41:55 2023 ] 	Mean test loss of 1250 batches: 1.432115.
+[ Mon Apr 17 10:41:55 2023 ] 	Top1: 77.97%
+[ Mon Apr 17 10:41:55 2023 ] 	Top5: 96.39%
+[ Mon Apr 17 10:41:55 2023 ] Training epoch: 57
+[ Mon Apr 17 10:48:49 2023 ] 	Training loss: 1.6720.  Training acc: 69.56%.
+[ Mon Apr 17 10:48:49 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 10:48:49 2023 ] Eval epoch: 57
+[ Mon Apr 17 10:50:14 2023 ] 	Mean test loss of 1250 batches: 1.564964.
+[ Mon Apr 17 10:50:14 2023 ] 	Top1: 73.93%
+[ Mon Apr 17 10:50:14 2023 ] 	Top5: 94.69%
+[ Mon Apr 17 10:50:14 2023 ] Training epoch: 58
+[ Mon Apr 17 10:57:13 2023 ] 	Training loss: 1.6590.  Training acc: 69.85%.
+[ Mon Apr 17 10:57:13 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 10:57:13 2023 ] Eval epoch: 58
+[ Mon Apr 17 10:58:40 2023 ] 	Mean test loss of 1250 batches: 1.654072.
+[ Mon Apr 17 10:58:40 2023 ] 	Top1: 72.23%
+[ Mon Apr 17 10:58:40 2023 ] 	Top5: 93.65%
+[ Mon Apr 17 10:58:41 2023 ] Training epoch: 59
+[ Mon Apr 17 11:05:34 2023 ] 	Training loss: 1.6709.  Training acc: 69.69%.
+[ Mon Apr 17 11:05:34 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 11:05:34 2023 ] Eval epoch: 59
+[ Mon Apr 17 11:07:00 2023 ] 	Mean test loss of 1250 batches: 1.562055.
+[ Mon Apr 17 11:07:00 2023 ] 	Top1: 75.06%
+[ Mon Apr 17 11:07:00 2023 ] 	Top5: 95.27%
+[ Mon Apr 17 11:07:00 2023 ] Training epoch: 60
+[ Mon Apr 17 11:14:03 2023 ] 	Training loss: 1.6576.  Training acc: 70.10%.
+[ Mon Apr 17 11:14:03 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 11:14:03 2023 ] Eval epoch: 60
+[ Mon Apr 17 11:15:35 2023 ] 	Mean test loss of 1250 batches: 1.674819.
+[ Mon Apr 17 11:15:35 2023 ] 	Top1: 70.48%
+[ Mon Apr 17 11:15:35 2023 ] 	Top5: 93.23%
+[ Mon Apr 17 11:15:35 2023 ] Training epoch: 61
+[ Mon Apr 17 11:22:47 2023 ] 	Training loss: 1.6740.  Training acc: 69.45%.
+[ Mon Apr 17 11:22:47 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 11:22:47 2023 ] Eval epoch: 61
+[ Mon Apr 17 11:24:13 2023 ] 	Mean test loss of 1250 batches: 2.697984.
+[ Mon Apr 17 11:24:13 2023 ] 	Top1: 53.74%
+[ Mon Apr 17 11:24:13 2023 ] 	Top5: 71.32%
+[ Mon Apr 17 11:24:13 2023 ] Training epoch: 62
+[ Mon Apr 17 11:31:11 2023 ] 	Training loss: 1.6648.  Training acc: 69.58%.
+[ Mon Apr 17 11:31:11 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 11:31:11 2023 ] Eval epoch: 62
+[ Mon Apr 17 11:32:37 2023 ] 	Mean test loss of 1250 batches: 1.375977.
+[ Mon Apr 17 11:32:37 2023 ] 	Top1: 80.00%
+[ Mon Apr 17 11:32:37 2023 ] 	Top5: 97.04%
+[ Mon Apr 17 11:32:37 2023 ] Training epoch: 63
+[ Mon Apr 17 11:39:34 2023 ] 	Training loss: 1.6691.  Training acc: 69.63%.
+[ Mon Apr 17 11:39:34 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 11:39:34 2023 ] Eval epoch: 63
+[ Mon Apr 17 11:40:59 2023 ] 	Mean test loss of 1250 batches: 1.453090.
+[ Mon Apr 17 11:40:59 2023 ] 	Top1: 78.52%
+[ Mon Apr 17 11:40:59 2023 ] 	Top5: 95.98%
+[ Mon Apr 17 11:40:59 2023 ] Training epoch: 64
+[ Mon Apr 17 11:47:55 2023 ] 	Training loss: 1.6725.  Training acc: 69.37%.
+[ Mon Apr 17 11:47:55 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 11:47:55 2023 ] Eval epoch: 64
+[ Mon Apr 17 11:49:22 2023 ] 	Mean test loss of 1250 batches: 1.544415.
+[ Mon Apr 17 11:49:22 2023 ] 	Top1: 74.96%
+[ Mon Apr 17 11:49:22 2023 ] 	Top5: 94.85%
+[ Mon Apr 17 11:49:22 2023 ] Training epoch: 65
+[ Mon Apr 17 11:56:21 2023 ] 	Training loss: 1.6679.  Training acc: 69.44%.
+[ Mon Apr 17 11:56:21 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 11:56:21 2023 ] Eval epoch: 65
+[ Mon Apr 17 11:57:46 2023 ] 	Mean test loss of 1250 batches: 1.718059.
+[ Mon Apr 17 11:57:47 2023 ] 	Top1: 69.21%
+[ Mon Apr 17 11:57:47 2023 ] 	Top5: 92.02%
+[ Mon Apr 17 11:57:47 2023 ] Training epoch: 66
+[ Mon Apr 17 12:04:45 2023 ] 	Training loss: 1.6652.  Training acc: 69.43%.
+[ Mon Apr 17 12:04:45 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 12:04:45 2023 ] Eval epoch: 66
+[ Mon Apr 17 12:06:10 2023 ] 	Mean test loss of 1250 batches: 1.869753.
+[ Mon Apr 17 12:06:10 2023 ] 	Top1: 63.73%
+[ Mon Apr 17 12:06:10 2023 ] 	Top5: 87.95%
+[ Mon Apr 17 12:06:11 2023 ] Training epoch: 67
+[ Mon Apr 17 12:13:11 2023 ] 	Training loss: 1.6608.  Training acc: 70.20%.
+[ Mon Apr 17 12:13:11 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 12:13:11 2023 ] Eval epoch: 67
+[ Mon Apr 17 12:14:36 2023 ] 	Mean test loss of 1250 batches: 1.474472.
+[ Mon Apr 17 12:14:36 2023 ] 	Top1: 77.02%
+[ Mon Apr 17 12:14:36 2023 ] 	Top5: 96.15%
+[ Mon Apr 17 12:14:36 2023 ] Training epoch: 68
+[ Mon Apr 17 12:21:35 2023 ] 	Training loss: 1.6621.  Training acc: 69.79%.
+[ Mon Apr 17 12:21:35 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 12:21:35 2023 ] Eval epoch: 68
+[ Mon Apr 17 12:23:01 2023 ] 	Mean test loss of 1250 batches: 1.451012.
+[ Mon Apr 17 12:23:01 2023 ] 	Top1: 77.27%
+[ Mon Apr 17 12:23:01 2023 ] 	Top5: 96.19%
+[ Mon Apr 17 12:23:02 2023 ] Training epoch: 69
+[ Mon Apr 17 12:29:59 2023 ] 	Training loss: 1.6650.  Training acc: 69.70%.
+[ Mon Apr 17 12:29:59 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 12:29:59 2023 ] Eval epoch: 69
+[ Mon Apr 17 12:31:24 2023 ] 	Mean test loss of 1250 batches: 1.471549.
+[ Mon Apr 17 12:31:24 2023 ] 	Top1: 76.06%
+[ Mon Apr 17 12:31:24 2023 ] 	Top5: 96.51%
+[ Mon Apr 17 12:31:24 2023 ] Training epoch: 70
+[ Mon Apr 17 12:38:21 2023 ] 	Training loss: 1.6617.  Training acc: 69.83%.
+[ Mon Apr 17 12:38:21 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 12:38:21 2023 ] Eval epoch: 70
+[ Mon Apr 17 12:39:48 2023 ] 	Mean test loss of 1250 batches: 2.326876.
+[ Mon Apr 17 12:39:48 2023 ] 	Top1: 52.23%
+[ Mon Apr 17 12:39:48 2023 ] 	Top5: 82.55%
+[ Mon Apr 17 12:39:48 2023 ] Training epoch: 71
+[ Mon Apr 17 12:46:49 2023 ] 	Training loss: 1.6611.  Training acc: 69.91%.
+[ Mon Apr 17 12:46:49 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 12:46:49 2023 ] Eval epoch: 71
+[ Mon Apr 17 12:48:15 2023 ] 	Mean test loss of 1250 batches: 1.519622.
+[ Mon Apr 17 12:48:15 2023 ] 	Top1: 75.49%
+[ Mon Apr 17 12:48:15 2023 ] 	Top5: 95.93%
+[ Mon Apr 17 12:48:15 2023 ] Training epoch: 72
+[ Mon Apr 17 12:55:14 2023 ] 	Training loss: 1.6622.  Training acc: 70.17%.
+[ Mon Apr 17 12:55:14 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 12:55:14 2023 ] Eval epoch: 72
+[ Mon Apr 17 12:56:40 2023 ] 	Mean test loss of 1250 batches: 1.441657.
+[ Mon Apr 17 12:56:40 2023 ] 	Top1: 77.85%
+[ Mon Apr 17 12:56:40 2023 ] 	Top5: 96.29%
+[ Mon Apr 17 12:56:40 2023 ] Training epoch: 73
+[ Mon Apr 17 13:03:44 2023 ] 	Training loss: 1.6655.  Training acc: 69.72%.
+[ Mon Apr 17 13:03:44 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 13:03:44 2023 ] Eval epoch: 73
+[ Mon Apr 17 13:05:13 2023 ] 	Mean test loss of 1250 batches: 1.441953.
+[ Mon Apr 17 13:05:13 2023 ] 	Top1: 77.28%
+[ Mon Apr 17 13:05:13 2023 ] 	Top5: 95.83%
+[ Mon Apr 17 13:05:13 2023 ] Training epoch: 74
+[ Mon Apr 17 13:12:10 2023 ] 	Training loss: 1.6645.  Training acc: 69.94%.
+[ Mon Apr 17 13:12:10 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 13:12:10 2023 ] Eval epoch: 74
+[ Mon Apr 17 13:13:35 2023 ] 	Mean test loss of 1250 batches: 1.569338.
+[ Mon Apr 17 13:13:35 2023 ] 	Top1: 73.67%
+[ Mon Apr 17 13:13:35 2023 ] 	Top5: 94.37%
+[ Mon Apr 17 13:13:35 2023 ] Training epoch: 75
+[ Mon Apr 17 13:20:33 2023 ] 	Training loss: 1.6499.  Training acc: 70.45%.
+[ Mon Apr 17 13:20:33 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 13:20:33 2023 ] Eval epoch: 75
+[ Mon Apr 17 13:21:59 2023 ] 	Mean test loss of 1250 batches: 2.480357.
+[ Mon Apr 17 13:21:59 2023 ] 	Top1: 51.77%
+[ Mon Apr 17 13:21:59 2023 ] 	Top5: 79.08%
+[ Mon Apr 17 13:21:59 2023 ] Training epoch: 76
+[ Mon Apr 17 13:29:09 2023 ] 	Training loss: 1.6614.  Training acc: 70.19%.
+[ Mon Apr 17 13:29:09 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 13:29:09 2023 ] Eval epoch: 76
+[ Mon Apr 17 13:30:35 2023 ] 	Mean test loss of 1250 batches: 1.624714.
+[ Mon Apr 17 13:30:35 2023 ] 	Top1: 70.86%
+[ Mon Apr 17 13:30:35 2023 ] 	Top5: 93.70%
+[ Mon Apr 17 13:30:35 2023 ] Training epoch: 77
+[ Mon Apr 17 13:37:39 2023 ] 	Training loss: 1.6597.  Training acc: 70.03%.
+[ Mon Apr 17 13:37:39 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 13:37:39 2023 ] Eval epoch: 77
+[ Mon Apr 17 13:39:05 2023 ] 	Mean test loss of 1250 batches: 1.456460.
+[ Mon Apr 17 13:39:05 2023 ] 	Top1: 77.44%
+[ Mon Apr 17 13:39:05 2023 ] 	Top5: 96.57%
+[ Mon Apr 17 13:39:05 2023 ] Training epoch: 78
+[ Mon Apr 17 13:46:02 2023 ] 	Training loss: 1.6546.  Training acc: 69.97%.
+[ Mon Apr 17 13:46:02 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 13:46:02 2023 ] Eval epoch: 78
+[ Mon Apr 17 13:47:28 2023 ] 	Mean test loss of 1250 batches: 1.385631.
+[ Mon Apr 17 13:47:28 2023 ] 	Top1: 78.25%
+[ Mon Apr 17 13:47:28 2023 ] 	Top5: 96.53%
+[ Mon Apr 17 13:47:28 2023 ] Training epoch: 79
+[ Mon Apr 17 13:54:24 2023 ] 	Training loss: 1.6614.  Training acc: 69.72%.
+[ Mon Apr 17 13:54:24 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 13:54:24 2023 ] Eval epoch: 79
+[ Mon Apr 17 13:55:49 2023 ] 	Mean test loss of 1250 batches: 1.439491.
+[ Mon Apr 17 13:55:49 2023 ] 	Top1: 77.38%
+[ Mon Apr 17 13:55:49 2023 ] 	Top5: 96.47%
+[ Mon Apr 17 13:55:50 2023 ] Training epoch: 80
+[ Mon Apr 17 14:02:44 2023 ] 	Training loss: 1.6545.  Training acc: 70.12%.
+[ Mon Apr 17 14:02:44 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 14:02:44 2023 ] Eval epoch: 80
+[ Mon Apr 17 14:04:10 2023 ] 	Mean test loss of 1250 batches: 1.369082.
+[ Mon Apr 17 14:04:10 2023 ] 	Top1: 80.24%
+[ Mon Apr 17 14:04:10 2023 ] 	Top5: 96.90%
+[ Mon Apr 17 14:04:11 2023 ] Training epoch: 81
+[ Mon Apr 17 14:11:08 2023 ] 	Training loss: 1.6571.  Training acc: 69.84%.
+[ Mon Apr 17 14:11:08 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 14:11:08 2023 ] Eval epoch: 81
+[ Mon Apr 17 14:12:34 2023 ] 	Mean test loss of 1250 batches: 1.492303.
+[ Mon Apr 17 14:12:34 2023 ] 	Top1: 75.87%
+[ Mon Apr 17 14:12:34 2023 ] 	Top5: 95.98%
+[ Mon Apr 17 14:12:34 2023 ] Training epoch: 82
+[ Mon Apr 17 14:19:33 2023 ] 	Training loss: 1.6604.  Training acc: 69.93%.
+[ Mon Apr 17 14:19:33 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 14:19:33 2023 ] Eval epoch: 82
+[ Mon Apr 17 14:20:59 2023 ] 	Mean test loss of 1250 batches: 1.428995.
+[ Mon Apr 17 14:20:59 2023 ] 	Top1: 76.77%
+[ Mon Apr 17 14:20:59 2023 ] 	Top5: 96.69%
+[ Mon Apr 17 14:20:59 2023 ] Training epoch: 83
+[ Mon Apr 17 14:27:54 2023 ] 	Training loss: 1.6556.  Training acc: 70.17%.
+[ Mon Apr 17 14:27:54 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 14:27:54 2023 ] Eval epoch: 83
+[ Mon Apr 17 14:29:19 2023 ] 	Mean test loss of 1250 batches: 1.894113.
+[ Mon Apr 17 14:29:19 2023 ] 	Top1: 63.64%
+[ Mon Apr 17 14:29:19 2023 ] 	Top5: 88.18%
+[ Mon Apr 17 14:29:19 2023 ] Training epoch: 84
+[ Mon Apr 17 14:36:20 2023 ] 	Training loss: 1.6561.  Training acc: 69.96%.
+[ Mon Apr 17 14:36:20 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 14:36:20 2023 ] Eval epoch: 84
+[ Mon Apr 17 14:37:45 2023 ] 	Mean test loss of 1250 batches: 1.599981.
+[ Mon Apr 17 14:37:45 2023 ] 	Top1: 73.60%
+[ Mon Apr 17 14:37:46 2023 ] 	Top5: 94.24%
+[ Mon Apr 17 14:37:46 2023 ] Training epoch: 85
+[ Mon Apr 17 14:44:45 2023 ] 	Training loss: 1.6536.  Training acc: 70.21%.
+[ Mon Apr 17 14:44:45 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 14:44:45 2023 ] Eval epoch: 85
+[ Mon Apr 17 14:46:11 2023 ] 	Mean test loss of 1250 batches: 1.658580.
+[ Mon Apr 17 14:46:11 2023 ] 	Top1: 72.05%
+[ Mon Apr 17 14:46:11 2023 ] 	Top5: 94.02%
+[ Mon Apr 17 14:46:11 2023 ] Training epoch: 86
+[ Mon Apr 17 14:53:13 2023 ] 	Training loss: 1.6555.  Training acc: 70.22%.
+[ Mon Apr 17 14:53:13 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 14:53:13 2023 ] Eval epoch: 86
+[ Mon Apr 17 14:54:39 2023 ] 	Mean test loss of 1250 batches: 1.625540.
+[ Mon Apr 17 14:54:39 2023 ] 	Top1: 71.53%
+[ Mon Apr 17 14:54:39 2023 ] 	Top5: 93.79%
+[ Mon Apr 17 14:54:39 2023 ] Training epoch: 87
+[ Mon Apr 17 15:01:38 2023 ] 	Training loss: 1.6593.  Training acc: 70.01%.
+[ Mon Apr 17 15:01:38 2023 ] 	Time consumption: [Data]10%, [Network]89%
+[ Mon Apr 17 15:01:38 2023 ] Eval epoch: 87
+[ Mon Apr 17 15:03:04 2023 ] 	Mean test loss of 1250 batches: 1.553294.
+[ Mon Apr 17 15:03:04 2023 ] 	Top1: 74.14%
+[ Mon Apr 17 15:03:04 2023 ] 	Top5: 95.45%
+[ Mon Apr 17 15:03:04 2023 ] Training epoch: 88
+[ Mon Apr 17 15:10:04 2023 ] 	Training loss: 1.6504.  Training acc: 70.47%.
+[ Mon Apr 17 15:10:04 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 15:10:04 2023 ] Eval epoch: 88
+[ Mon Apr 17 15:11:30 2023 ] 	Mean test loss of 1250 batches: 1.760818.
+[ Mon Apr 17 15:11:31 2023 ] 	Top1: 68.62%
+[ Mon Apr 17 15:11:31 2023 ] 	Top5: 91.03%
+[ Mon Apr 17 15:11:31 2023 ] Training epoch: 89
+[ Mon Apr 17 15:18:34 2023 ] 	Training loss: 1.6595.  Training acc: 69.82%.
+[ Mon Apr 17 15:18:34 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 15:18:34 2023 ] Eval epoch: 89
+[ Mon Apr 17 15:20:02 2023 ] 	Mean test loss of 1250 batches: 1.648957.
+[ Mon Apr 17 15:20:02 2023 ] 	Top1: 71.19%
+[ Mon Apr 17 15:20:02 2023 ] 	Top5: 94.03%
+[ Mon Apr 17 15:20:02 2023 ] Training epoch: 90
+[ Mon Apr 17 15:27:28 2023 ] 	Training loss: 1.6553.  Training acc: 69.90%.
+[ Mon Apr 17 15:27:28 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 15:27:28 2023 ] Eval epoch: 90
+[ Mon Apr 17 15:29:01 2023 ] 	Mean test loss of 1250 batches: 1.469057.
+[ Mon Apr 17 15:29:01 2023 ] 	Top1: 75.63%
+[ Mon Apr 17 15:29:01 2023 ] 	Top5: 96.14%
+[ Mon Apr 17 15:29:01 2023 ] Training epoch: 91
+[ Mon Apr 17 15:36:04 2023 ] 	Training loss: 1.2855.  Training acc: 82.02%.
+[ Mon Apr 17 15:36:04 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 15:36:04 2023 ] Eval epoch: 91
+[ Mon Apr 17 15:37:30 2023 ] 	Mean test loss of 1250 batches: 1.079896.
+[ Mon Apr 17 15:37:30 2023 ] 	Top1: 89.41%
+[ Mon Apr 17 15:37:30 2023 ] 	Top5: 98.77%
+[ Mon Apr 17 15:37:30 2023 ] Training epoch: 92
+[ Mon Apr 17 15:44:35 2023 ] 	Training loss: 1.2093.  Training acc: 84.56%.
+[ Mon Apr 17 15:44:35 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 15:44:35 2023 ] Eval epoch: 92
+[ Mon Apr 17 15:46:01 2023 ] 	Mean test loss of 1250 batches: 1.050602.
+[ Mon Apr 17 15:46:01 2023 ] 	Top1: 90.74%
+[ Mon Apr 17 15:46:01 2023 ] 	Top5: 98.88%
+[ Mon Apr 17 15:46:01 2023 ] Training epoch: 93
+[ Mon Apr 17 15:53:01 2023 ] 	Training loss: 1.1770.  Training acc: 85.60%.
+[ Mon Apr 17 15:53:01 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 15:53:01 2023 ] Eval epoch: 93
+[ Mon Apr 17 15:54:26 2023 ] 	Mean test loss of 1250 batches: 1.039345.
+[ Mon Apr 17 15:54:26 2023 ] 	Top1: 90.90%
+[ Mon Apr 17 15:54:27 2023 ] 	Top5: 98.89%
+[ Mon Apr 17 15:54:27 2023 ] Training epoch: 94
+[ Mon Apr 17 16:01:22 2023 ] 	Training loss: 1.1629.  Training acc: 86.10%.
+[ Mon Apr 17 16:01:22 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 16:01:22 2023 ] Eval epoch: 94
+[ Mon Apr 17 16:02:47 2023 ] 	Mean test loss of 1250 batches: 1.053294.
+[ Mon Apr 17 16:02:47 2023 ] 	Top1: 90.00%
+[ Mon Apr 17 16:02:47 2023 ] 	Top5: 98.75%
+[ Mon Apr 17 16:02:47 2023 ] Training epoch: 95
+[ Mon Apr 17 16:09:44 2023 ] 	Training loss: 1.1428.  Training acc: 86.87%.
+[ Mon Apr 17 16:09:44 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 16:09:44 2023 ] Eval epoch: 95
+[ Mon Apr 17 16:11:10 2023 ] 	Mean test loss of 1250 batches: 1.022787.
+[ Mon Apr 17 16:11:10 2023 ] 	Top1: 91.13%
+[ Mon Apr 17 16:11:10 2023 ] 	Top5: 99.04%
+[ Mon Apr 17 16:11:10 2023 ] Training epoch: 96
+[ Mon Apr 17 16:18:09 2023 ] 	Training loss: 1.1370.  Training acc: 87.04%.
+[ Mon Apr 17 16:18:09 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 16:18:09 2023 ] Eval epoch: 96
+[ Mon Apr 17 16:19:36 2023 ] 	Mean test loss of 1250 batches: 1.018485.
+[ Mon Apr 17 16:19:36 2023 ] 	Top1: 91.54%
+[ Mon Apr 17 16:19:36 2023 ] 	Top5: 98.96%
+[ Mon Apr 17 16:19:36 2023 ] Training epoch: 97
+[ Mon Apr 17 16:26:33 2023 ] 	Training loss: 1.1287.  Training acc: 87.41%.
+[ Mon Apr 17 16:26:33 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 16:26:33 2023 ] Eval epoch: 97
+[ Mon Apr 17 16:27:59 2023 ] 	Mean test loss of 1250 batches: 1.016100.
+[ Mon Apr 17 16:27:59 2023 ] 	Top1: 91.62%
+[ Mon Apr 17 16:27:59 2023 ] 	Top5: 99.03%
+[ Mon Apr 17 16:27:59 2023 ] Training epoch: 98
+[ Mon Apr 17 16:34:55 2023 ] 	Training loss: 1.1272.  Training acc: 87.39%.
+[ Mon Apr 17 16:34:55 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 16:34:55 2023 ] Eval epoch: 98
+[ Mon Apr 17 16:36:20 2023 ] 	Mean test loss of 1250 batches: 1.012645.
+[ Mon Apr 17 16:36:20 2023 ] 	Top1: 91.57%
+[ Mon Apr 17 16:36:20 2023 ] 	Top5: 99.01%
+[ Mon Apr 17 16:36:20 2023 ] Training epoch: 99
+[ Mon Apr 17 16:43:14 2023 ] 	Training loss: 1.1222.  Training acc: 87.81%.
+[ Mon Apr 17 16:43:14 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 16:43:14 2023 ] Eval epoch: 99
+[ Mon Apr 17 16:44:44 2023 ] 	Mean test loss of 1250 batches: 0.999411.
+[ Mon Apr 17 16:44:44 2023 ] 	Top1: 92.25%
+[ Mon Apr 17 16:44:44 2023 ] 	Top5: 99.03%
+[ Mon Apr 17 16:44:44 2023 ] Training epoch: 100
+[ Mon Apr 17 16:51:47 2023 ] 	Training loss: 1.1189.  Training acc: 87.70%.
+[ Mon Apr 17 16:51:47 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 16:51:47 2023 ] Eval epoch: 100
+[ Mon Apr 17 16:53:13 2023 ] 	Mean test loss of 1250 batches: 1.041607.
+[ Mon Apr 17 16:53:14 2023 ] 	Top1: 90.33%
+[ Mon Apr 17 16:53:14 2023 ] 	Top5: 98.79%
+[ Mon Apr 17 16:53:14 2023 ] Training epoch: 101
+[ Mon Apr 17 17:00:12 2023 ] 	Training loss: 1.0418.  Training acc: 90.52%.
+[ Mon Apr 17 17:00:12 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 17:00:12 2023 ] Eval epoch: 101
+[ Mon Apr 17 17:01:37 2023 ] 	Mean test loss of 1250 batches: 0.964828.
+[ Mon Apr 17 17:01:37 2023 ] 	Top1: 93.22%
+[ Mon Apr 17 17:01:37 2023 ] 	Top5: 99.14%
+[ Mon Apr 17 17:01:37 2023 ] Training epoch: 102
+[ Mon Apr 17 17:08:36 2023 ] 	Training loss: 1.0240.  Training acc: 91.33%.
+[ Mon Apr 17 17:08:36 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 17:08:36 2023 ] Eval epoch: 102
+[ Mon Apr 17 17:10:02 2023 ] 	Mean test loss of 1250 batches: 0.959090.
+[ Mon Apr 17 17:10:02 2023 ] 	Top1: 93.29%
+[ Mon Apr 17 17:10:02 2023 ] 	Top5: 99.20%
+[ Mon Apr 17 17:10:02 2023 ] Training epoch: 103
+[ Mon Apr 17 17:16:59 2023 ] 	Training loss: 1.0112.  Training acc: 91.68%.
+[ Mon Apr 17 17:16:59 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 17:16:59 2023 ] Eval epoch: 103
+[ Mon Apr 17 17:18:24 2023 ] 	Mean test loss of 1250 batches: 0.953969.
+[ Mon Apr 17 17:18:24 2023 ] 	Top1: 93.39%
+[ Mon Apr 17 17:18:24 2023 ] 	Top5: 99.19%
+[ Mon Apr 17 17:18:25 2023 ] Training epoch: 104
+[ Mon Apr 17 17:25:22 2023 ] 	Training loss: 1.0064.  Training acc: 91.85%.
+[ Mon Apr 17 17:25:22 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 17:25:22 2023 ] Eval epoch: 104
+[ Mon Apr 17 17:26:48 2023 ] 	Mean test loss of 1250 batches: 0.956046.
+[ Mon Apr 17 17:26:49 2023 ] 	Top1: 93.38%
+[ Mon Apr 17 17:26:49 2023 ] 	Top5: 99.20%
+[ Mon Apr 17 17:26:49 2023 ] Training epoch: 105
+[ Mon Apr 17 17:33:48 2023 ] 	Training loss: 1.0058.  Training acc: 91.83%.
+[ Mon Apr 17 17:33:48 2023 ] 	Time consumption: [Data]10%, [Network]90%
+[ Mon Apr 17 17:33:48 2023 ] Eval epoch: 105
+[ Mon Apr 17 17:35:16 2023 ] 	Mean test loss of 1250 batches: 0.953082.
+[ Mon Apr 17 17:35:16 2023 ] 	Top1: 93.43%
+[ Mon Apr 17 17:35:16 2023 ] 	Top5: 99.21%
+[ Mon Apr 17 17:35:16 2023 ] Training epoch: 106
+[ Mon Apr 17 17:42:41 2023 ] 	Training loss: 0.9984.  Training acc: 92.37%.
+[ Mon Apr 17 17:42:41 2023 ] 	Time consumption: [Data]12%, [Network]88%
+[ Mon Apr 17 17:42:41 2023 ] Eval epoch: 106
+[ Mon Apr 17 17:44:08 2023 ] 	Mean test loss of 1250 batches: 0.956828.
+[ Mon Apr 17 17:44:09 2023 ] 	Top1: 93.31%
+[ Mon Apr 17 17:44:09 2023 ] 	Top5: 99.18%
+[ Mon Apr 17 17:44:09 2023 ] Training epoch: 107
+[ Mon Apr 17 17:51:16 2023 ] 	Training loss: 0.9962.  Training acc: 92.25%.
+[ Mon Apr 17 17:51:16 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 17:51:17 2023 ] Eval epoch: 107
+[ Mon Apr 17 17:52:45 2023 ] 	Mean test loss of 1250 batches: 0.949873.
+[ Mon Apr 17 17:52:45 2023 ] 	Top1: 93.56%
+[ Mon Apr 17 17:52:46 2023 ] 	Top5: 99.27%
+[ Mon Apr 17 17:52:46 2023 ] Training epoch: 108
+[ Mon Apr 17 17:59:53 2023 ] 	Training loss: 0.9896.  Training acc: 92.47%.
+[ Mon Apr 17 17:59:53 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 17:59:53 2023 ] Eval epoch: 108
+[ Mon Apr 17 18:01:27 2023 ] 	Mean test loss of 1250 batches: 0.949841.
+[ Mon Apr 17 18:01:27 2023 ] 	Top1: 93.53%
+[ Mon Apr 17 18:01:27 2023 ] 	Top5: 99.24%
+[ Mon Apr 17 18:01:27 2023 ] Training epoch: 109
+[ Mon Apr 17 18:08:36 2023 ] 	Training loss: 0.9898.  Training acc: 92.57%.
+[ Mon Apr 17 18:08:36 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 18:08:36 2023 ] Eval epoch: 109
+[ Mon Apr 17 18:10:04 2023 ] 	Mean test loss of 1250 batches: 0.948428.
+[ Mon Apr 17 18:10:04 2023 ] 	Top1: 93.62%
+[ Mon Apr 17 18:10:04 2023 ] 	Top5: 99.20%
+[ Mon Apr 17 18:10:04 2023 ] Training epoch: 110
+[ Mon Apr 17 18:17:09 2023 ] 	Training loss: 0.9833.  Training acc: 92.72%.
+[ Mon Apr 17 18:17:09 2023 ] 	Time consumption: [Data]11%, [Network]89%
+[ Mon Apr 17 18:17:09 2023 ] Eval epoch: 110
+[ Mon Apr 17 18:18:35 2023 ] 	Mean test loss of 1250 batches: 0.949466.
+[ Mon Apr 17 18:18:36 2023 ] 	Top1: 93.46%
+[ Mon Apr 17 18:18:36 2023 ] 	Top5: 99.28%
+[ Mon Apr 17 18:37:54 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 18:38:21 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 18:38:21 2023 ] # Parameters: 8783879
+[ Mon Apr 17 18:38:21 2023 ] Training epoch: 1
+[ Mon Apr 17 18:40:54 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 18:41:19 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 18:41:39 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 18:41:39 2023 ] # Parameters: 8764583
+[ Mon Apr 17 18:41:39 2023 ] Training epoch: 1
+[ Mon Apr 17 18:41:57 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 18:42:18 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 18:42:18 2023 ] # Parameters: 8764583
+[ Mon Apr 17 18:42:18 2023 ] Training epoch: 1
+[ Mon Apr 17 18:42:55 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 18:43:16 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 18:43:16 2023 ] # Parameters: 8764583
+[ Mon Apr 17 18:43:16 2023 ] Training epoch: 1
+[ Mon Apr 17 18:49:09 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 18:49:31 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 18:49:31 2023 ] # Parameters: 8764583
+[ Mon Apr 17 18:49:31 2023 ] Training epoch: 1
+[ Mon Apr 17 18:50:31 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 18:50:53 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 18:50:53 2023 ] # Parameters: 8764583
+[ Mon Apr 17 18:50:53 2023 ] Training epoch: 1
+[ Mon Apr 17 18:52:34 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 18:52:55 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 18:52:55 2023 ] # Parameters: 8461479
+[ Mon Apr 17 18:52:55 2023 ] Training epoch: 1
+[ Mon Apr 17 18:56:19 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 18:56:41 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 18:56:41 2023 ] # Parameters: 8461479
+[ Mon Apr 17 18:56:41 2023 ] Training epoch: 1
+[ Mon Apr 17 19:02:02 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:02:25 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:02:25 2023 ] # Parameters: 8461479
+[ Mon Apr 17 19:02:25 2023 ] Training epoch: 1
+[ Mon Apr 17 19:08:52 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:09:15 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:09:15 2023 ] # Parameters: 8461479
+[ Mon Apr 17 19:09:15 2023 ] Training epoch: 1
+[ Mon Apr 17 19:12:23 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:12:44 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:12:44 2023 ] # Parameters: 8461479
+[ Mon Apr 17 19:12:44 2023 ] Training epoch: 1
+[ Mon Apr 17 19:13:47 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:14:08 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:14:08 2023 ] # Parameters: 8461479
+[ Mon Apr 17 19:14:08 2023 ] Training epoch: 1
+[ Mon Apr 17 19:17:50 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:18:11 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:18:11 2023 ] # Parameters: 8764583
+[ Mon Apr 17 19:18:11 2023 ] Training epoch: 1
+[ Mon Apr 17 19:18:42 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:19:03 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:19:03 2023 ] # Parameters: 8461479
+[ Mon Apr 17 19:19:03 2023 ] Training epoch: 1
+[ Mon Apr 17 19:32:46 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:33:08 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:33:08 2023 ] # Parameters: 1556807
+[ Mon Apr 17 19:33:08 2023 ] Training epoch: 1
+[ Mon Apr 17 19:34:54 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:35:16 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:35:16 2023 ] # Parameters: 1556807
+[ Mon Apr 17 19:35:16 2023 ] Training epoch: 1
+[ Mon Apr 17 19:39:20 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:39:40 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:39:40 2023 ] # Parameters: 1556807
+[ Mon Apr 17 19:39:40 2023 ] Training epoch: 1
+[ Mon Apr 17 19:41:51 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:42:12 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:42:12 2023 ] # Parameters: 1556807
+[ Mon Apr 17 19:42:12 2023 ] Training epoch: 1
+[ Mon Apr 17 19:43:55 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:44:15 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:44:15 2023 ] # Parameters: 1556807
+[ Mon Apr 17 19:44:15 2023 ] Training epoch: 1
+[ Mon Apr 17 19:44:55 2023 ] using warm up, epoch: 5
+[ Mon Apr 17 19:45:17 2023 ] Parameters:
+{'debug': False, 'log_dir': '.', 'model_saved_name': '', 'noise_ratio': 0.5, 'n_desired': 40000, 'num_point': 25, 'num_person': 2, 'num_class': 60, 'dataset': 'ntu', 'datacase': 'CV', 'use_vel': False, 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 60, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_ntu.Feeder', 'num_worker': 0, 'balanced_sampling': False, 'random_rot': True, 'repeat': 1, 'weights': None, 'ignore_weights': [], 'n_heads': 3, 'k': 1, 'z_prior_gain': 3, 'graph': 'graph.ntu_rgb_d.Graph', 'base_lr': 0.1, 'step': [90, 100], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 32, 'test_batch_size': 32, 'start_epoch': 0, 'num_epoch': 110, 'weight_decay': 0.0005, 'lr_decay_rate': 0.1, 'warm_up_epoch': 5, 'lambda_1': 0.0001, 'lambda_2': 0.1, 'half': True, 'amp_opt_level': 1, 'work_dir': 'results/ntu_CV'}
+
+[ Mon Apr 17 19:45:17 2023 ] # Parameters: 1556807
+[ Mon Apr 17 19:45:17 2023 ] Training epoch: 1
+[ Mon Apr 17 19:54:13 2023 ] 	Training loss: 3.5331.  Training acc: 8.93%.
+[ Mon Apr 17 19:54:13 2023 ] 	Time consumption: [Data]08%, [Network]92%
+[ Mon Apr 17 19:54:13 2023 ] Eval epoch: 1
+[ Mon Apr 17 19:56:09 2023 ] 	Mean test loss of 1250 batches: 3.697796.
+[ Mon Apr 17 19:56:09 2023 ] 	Top1: 5.84%
+[ Mon Apr 17 19:56:09 2023 ] 	Top5: 23.83%
+[ Mon Apr 17 19:56:09 2023 ] Training epoch: 2
